@@ -1,0 +1,70 @@
+.skydek {
+    background-color: skyblue;
+    width:100vw;
+    height:100vh;
+}
+
+.skydek * {
+    font-family: Arial;
+    transition:.2s;
+}
+
+.skydek .navbar {
+    height:80px;
+    width:100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0 20px;
+    background-color: white;
+}
+
+.skydek .navbar-left {
+    width:300px;
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+    background-color: lightgray;
+    padding:20px;
+    font-size:20px;
+}
+
+.skydek .navbar * {
+    color:skyblue;
+    height:40px;
+}
+
+.skydek .navbar *:not(.logo):hover{
+    cursor: pointer;
+}
+
+.skydek .logo {
+    font-size: 40px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.skydek .logo:hover{
+    cursor:default;
+}
+
+.skydek .signOut {
+    height: 40px;
+    color:white;
+    background-color: skyblue;
+    border-radius:30px;
+    font-size:20px;
+    padding:0 20px;
+}
+
+.skydek .profile{
+    width:fit-content;
+}
+
+.skydek .profile .icon{
+    margin-right:20px;
+}
+
+.skydek .profile:hover{
+    cursor: pointer;
+}

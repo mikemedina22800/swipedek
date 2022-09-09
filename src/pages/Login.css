@@ -1,0 +1,42 @@
+.login {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../images/bg.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.login h1 {
+    color:white;
+    font:bold 100px Arial;
+    font-style: italic;
+    margin-bottom:40px;
+}
+
+.login .googleAuthButton {
+    width:500px;
+    font:20px Arial;
+    border-radius: 20px;
+    margin-bottom:20px;
+    transition: .3s;
+    text-decoration:none;
+    padding:20px;
+    text-align: center;
+    background:white;
+}
+
+.login .googleAuthButton:hover {
+    transform:scale(1.05);
+    cursor:pointer;
+}
+
+@media only screen and (max-width: 540px) {
+    .login {
+        transform:scale(.6)
+    }
+}
